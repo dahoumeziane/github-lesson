@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.brainerx.githublesson"
     compileSdk = 35
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.brainerx.githublesson"
         minSdk = 29
